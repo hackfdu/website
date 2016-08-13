@@ -1,0 +1,84 @@
+@import 'variables.less';
+
+html {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 1180px) {
+  html {
+    font-size: 15px;
+  }
+  .logo-title {
+    background-size: 80% auto;
+  }
+  .nav {
+    transform: translateY(0);
+  }
+  .nav-right.nav-menu {
+    padding: 0;
+    justify-content: flex-end;
+  }
+  section.is-fullheight {
+    max-height: none;
+    &:not(.main-title) {
+      // Disable fullpage on narrow screens
+      min-height: 0 !important;
+    }
+  }
+  .content {
+    line-height: 1.6em;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .nav-right a {
+    height: 50px;
+    font-weight: 900;
+  }
+  .faq-box {
+    border-color: transparent;
+    background-color: transparent;
+    box-shadow: none;
+    color: @c-red;
+    &:hover {
+      color: @c-white;
+    }
+    h4 {
+      color: inherit;
+    }
+    &.expand > div {
+      color: @c-white;
+    }
+  }
+  .tl-box {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .menu-layer {
+    display: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+  .nav.fixed-top {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  html {
+    font-size: 13px;
+  }
+
+  .nav {
+    transform: translateY(0);
+  }
+
+  .logo-title {
+    max-width: @is-logo-title-mobile;
+    background-image: url(@i-logo-title-mobile);
+    background-size: auto 100%;
+  }
+}
