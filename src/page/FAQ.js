@@ -35,9 +35,17 @@ class Box extends Component {
 
 export default class extends Component {
   componentDidMount() {
-    let map = new BMap.Map('map')
-    map.centerAndZoom('复旦大学光华楼', 15)
+    //let map = new BMap.Map('map')
+    //map.centerAndZoom('复旦大学光华楼', 15)
     // fk.....
+    (new AMap.Marker({
+      position: [121.505257, 31.3001]
+    })).setMap(new AMap.Map('map',{
+      resizeEnable: true,
+      zoomEnable: false,
+      zoom: 15,
+      center: [121.503584, 31.296426]
+    }))
   }
 
   render() {
