@@ -95,7 +95,7 @@ export default class extends Component {
                 <p>{__`Accepted students not only have chance to win some great prizes and technology gadgets, but also receive awards from sponsor companies or even internship/full-time job offers. Nothing is impossible here, come and join us!!!`}</p>
               </Box>
               <Box title={__`What if I have other questions?`}>
-                <p>{__`If you have any other questions, please email us at ask@hackx.org.`}</p>
+                <p>{__`If you have any other questions, please email us at ${<a className='link-invert' href='mailto:ask@grapetech.org'>ask@grapetech.org</a>}.`}</p>
               </Box>
             </div>
           </div>

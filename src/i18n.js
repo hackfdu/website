@@ -8,10 +8,11 @@ export default {
   'Fudan University': ' ',
 
   // Nav
-  'Application Process': '活动申请',
-  'Hackathon Schedule': '活动日程',
+  'Application': '活动申请',
+  'Schedule': '活动日程',
   'FAQ': '常见问题',
   'About Us': '关于我们',
+  'Sponsor': '赞助商',
   '中文': 'EN',
 
   // About
@@ -29,14 +30,19 @@ export default {
   'Student developers could also take this chance to connect with each sponsor’s developers and recruiters, in order to find their right fit for future career. {} will also invite top-notch venture capital investors to be part of the judging committee. Students could potentially benefit from those offerings by taking their projects to the next level. We hope, by the end of {}, students will not only receive many amazing prizes, but mostly importantly have fun, make great friends and turn the craziest idea into reality!': '学生也可借此机会对接企业开发人和招聘团队，为以后技术开发及落地或者就业寻找合适的机会。学生们也可连接受邀的创投公司，将开发的项目雏形通过登台公众演示以及赛后的技术完善来获得潜在的初创投资支持，以此来完成产品或服务的商业转化。最终，学生们不但通过此项比赛收获各类奖品，而更为重要的是，学生开发者们将能够更好地实现创新、创造，并在实践中找到自己心仪的合作伙伴。',
 
   // Signup
+  'Application Process': '活动申请',
   'here': '留给我们',
   'Please leave your contact info ({}), we will keep you updated for further progress.':
   '请将您的联系信息{ }{}，我们将及时通知您活动进展。',
 
-  'The APPLICATION will open on Saturday, August 20{}, 2016, we welcome you to apply!':
-  '申请表将在{ }8{ }月{ }20{ }日周六正式发布，敬请期待。',
+  'The APPLICATION will open on early September, 2016, we welcome you to apply!':
+  '申请表将在{ }9{ }月初正式发布，敬请期待。',
+
+  'We will use rolling-base application process. We strongly suggest you to apply in your earliest convenience, in order to maximize your chance for being selected.':
+  '我们将采用滚动式学生申请活动批准流程，建议各位参赛尽早申请，已获得参赛者资格。',
 
   // Timeline
+  'Hackathon Schedule': '活动日程',
   'Various Company Presentations': '各式企业宣讲活动',
   'API/SDK Training Session': 'API/SDK{ }使用教程',
   'Hackathon is Ready!': '大赛筹备完成',
@@ -69,7 +75,7 @@ export default {
   + ' software, hardware, applications, games and any sorts of extension. Our goal is to'
   + ' encourage open-source technology expansion and provide hands-on learning experience'
   + ' for students to use APIs/SDKs.']
-  : '{T}{ }是由复旦大学和葡萄科技技术（深圳）有限公司组织筹办的{ }Hackathon。这场{ }Hackation{ }旨在鼓励学生{ }“学以致用”'
+  : '{T}{ }是由复旦大学和葡萄科技技术（深圳）有限公司组织筹办的{ }Hackathon。这场{ }Hackathon{ }旨在鼓励学生{ }“学以致用”'
   + '{ }和{ }“团队合作”，学习创造各类软硬件、应用、游戏、插件等等。我们将鼓励开源技术的使用和推广，'
   + '并手把手地教学生如何使用各家企业开源{ }API/SDKs。',
 
@@ -108,7 +114,7 @@ export default {
   'Accepted students not only have chance to win some great prizes and technology gadgets, but also receive awards from sponsor companies or even internship/full-time job offers. Nothing is impossible here, come and join us!!!': '参加{ }{T}{ }的学生不但有机会获得大赛设置的精美奖项和高科技礼品，并有可能同时获得企业的青睐，得到企业特设的奖品，甚至获得实习、全职{ }offer。一切皆有可能，我们等你的参与哦！',
 
   'What if I have other questions?': '如果有什么其他问题，我该怎么办？',
-  'If you have any other questions, please email us at ask@hackx.org.': '请发送邮件至{ }ask@hackx.org。',
+  'If you have any other questions, please email us at {}.': '请发送邮件至{ }{}。',
 
   // Other
   'Hosts': '主办方',
@@ -118,10 +124,12 @@ export default {
   'The Committee of Youth League at Fudan University': '共青团复旦大学委员会',
   'The School of Computer Science at Fudan University': '复旦大学计算机科学技术学院',
   'Fudan University’s Student Union': '复旦大学学生会',
+  'Grape Tech (Shenzhen) LLC': '葡萄科技技术（深圳）有限公司',
+  'Fudan University Developer’s Network': '复旦开发者网络',
 
   'We are currently in progress working with sponsor companies. We will release their brands soon!':
   '我们在与各家赞助公司沟通合作，将会在赛前发布！',
-  'If your company would like to sponsor us, please email us at sponsor@hackx.org! We would love to have you here at {T}!': '如贵公司也有意向赞助本次活动？请邮件至{ }sponsor@hackx.org{ }我们期待您的参与！',
+  'If your company would like to sponsor us, please email us at {}! We would love to have you here at {T}!': '如贵公司也有意向赞助本次活动？请邮件至{ }{}{ }我们期待您的参与！',
 
   // Date
   'September 26{} (Monday)': '9{ }月{ }26{ }（周一）',

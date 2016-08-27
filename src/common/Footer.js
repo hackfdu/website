@@ -7,16 +7,14 @@ import { Router, Route, Link, browserHistory } from 'react-router'
 
 import { TITLE } from './const'
 
-import Other from '../page/Other'
-
 export default class extends Component {
   render() {
     return (
       <footer className='footer'>
-        <Other/>
         <div className='container'>
           <div className='content'>
             <p className='has-text-centered'>{TITLE} All rights reserved</p>
+            <p className='has-text-centered'>葡萄科技技术（深圳）有限公司</p>
           </div>
         </div>
       </footer>

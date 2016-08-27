@@ -10,6 +10,7 @@ html {
   }
   .logo-title {
     background-size: 80% auto;
+    font-size: 14vw;
   }
   .nav {
     transform: translateY(0);
@@ -41,13 +42,19 @@ html {
     box-shadow: none;
     color: @c-red;
     &:hover {
-      color: @c-white;
+      background: none;
     }
+
     h4 {
       color: inherit;
     }
-    &.expand > div {
+
+    &.expand {
       color: @c-white;
+      background: linear-gradient(135deg, @c-red 60%, @c-yellow 100%);
+      &> div {
+        color: @c-white;
+      }
     }
   }
   .tl-box {
@@ -80,5 +87,12 @@ html {
     max-width: @is-logo-title-mobile;
     background-image: url(@i-logo-title-mobile);
     background-size: auto 100%;
+    white-space: normal;
+    line-height: 66px;
+    letter-spacing: 0;
+    font-size: 84px;
+    br {
+      display: inherit;
+    }
   }
 }

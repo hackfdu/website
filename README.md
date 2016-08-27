@@ -17,9 +17,9 @@
 -> dist
 
 ## todo
-- [ ] favicon
-- [ ] animation
-- [ ] foft
+- [x] favicon
+- [x] animation
+- [x] foft
 - [ ] tracking
-- [ ] test
-- [ ] ?underlines, borders
+- [x] test
+- [ ] ~~?underlines, borders~~

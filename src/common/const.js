@@ -67,7 +67,7 @@ export const __ = (template, ...args) => {
           .reduce((res, part, i) =>
             [
               ...res,
-              i ? <Space/> : null,
+              i ? <Space /> : null,
               part.split('{T}').join(TITLE)
             ]
           , []),

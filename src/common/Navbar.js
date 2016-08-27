@@ -39,9 +39,10 @@ export default class extends Component {
         <div className={`menu-layer ${expand ? 'expand' : ''}`}>
           <div>
             <Link tabIndex='2' className='nav-item border c-white' to='/about'>{__`About Us`}</Link>
-            <Link tabIndex='3' className='nav-item border c-red' to='/signup'>{__`Application Process`}</Link>
-            <Link tabIndex='4' className='nav-item border c-yellow' to='/timeline'>{__`Hackathon Schedule`}</Link>
-            <Link tabIndex='5' className='nav-item border c-blue' to='/faq'>{__`FAQ`}</Link>
+            <Link tabIndex='3' className='nav-item border c-blue' to='/signup'>{__`Application`}</Link>
+            <Link tabIndex='4' className='nav-item border c-yellow' to='/timeline'>{__`Schedule`}</Link>
+            <Link tabIndex='5' className='nav-item border c-red' to='/faq'>{__`FAQ`}</Link>
+            <Link tabIndex='6' className='nav-item border c-sky' to='/other'>{__`Sponsor`}</Link>
           </div>
         </div>
         <header className={`nav${this.props.fixedTop ? ' fixed-top' : ''}${this.props.darkBg ? ' dark-bg' : ''}`}>
@@ -58,9 +59,10 @@ export default class extends Component {
           </span>
           <div className='nav-right nav-menu'>
             <Link tabIndex='2' className='nav-item border c-white' to='/about'>{__`About Us`}</Link>
-            <Link tabIndex='3' className='nav-item border c-red' to='/signup'>{__`Application Process`}</Link>
-            <Link tabIndex='4' className='nav-item border c-yellow' to='/timeline'>{__`Hackathon Schedule`}</Link>
-            <Link tabIndex='5' className='nav-item border c-blue' to='/faq'>{__`FAQ`}</Link>
+            <Link tabIndex='3' className='nav-item border c-blue' to='/signup'>{__`Application`}</Link>
+            <Link tabIndex='4' className='nav-item border c-yellow' to='/timeline'>{__`Schedule`}</Link>
+            <Link tabIndex='5' className='nav-item border c-red' to='/faq'>{__`FAQ`}</Link>
+            <Link tabIndex='6' className='nav-item border c-sky' to='/other'>{__`Sponsor`}</Link>
           </div>
           <div className='nav-right'>
             <a className='nav-item' href='javascript: ;' onClick={this.toggleLocale}>{__`中文`}</a>

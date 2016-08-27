@@ -45,9 +45,14 @@ module.exports = {
       template: indexHtmlPath,
       favicon: faviconPath,
     }),
+    new webpack.DefinePlugin({
+      'process.env':{
+        'NODE_ENV': JSON.stringify('production')
+      }
+    }),
     new webpack.optimize.UglifyJsPlugin({
-      compress: { 
-        warnings: false 
+      compress: {
+        warnings: false
       }
     })
   ]
