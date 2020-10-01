@@ -16,7 +16,7 @@
 
 -> dist
 
-## todo
+## to do
 - [x] favicon
 - [x] animation
 - [x] foft
