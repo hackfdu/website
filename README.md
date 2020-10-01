@@ -1,4 +1,4 @@
-# HACKxFDU website doc
+# HACKxFDU Website Docs
 
 ## install
 
