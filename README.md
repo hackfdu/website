@@ -1,4 +1,4 @@
-# HACKxFDU website doc
+# Website documentation
 
 ## install
 
@@ -8,7 +8,7 @@
 
 `$ npm start`
 
--> localhost:8080
+-> Localhost
 
 ## build
 
